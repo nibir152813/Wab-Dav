@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selecter</title>
+
+    <style>
+        div {
+            /*element selecter*/
+            /* background-color: red;*/
+        }
+
+        /*class selecter*/
+        .red {
+
+            background-color: red;
+        }
+
+        /*id selecter*/
+        #green {
+
+            background-color: green;
+        }
+
+        /*child selecter*/
+
+        div>p {
+
+            color: darkcyan;
+            background-color: blue;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a:visited
+        {
+            color:yellow;   
+        }
+        a:link {
+            color:blue;
+        }
+        a:active{
+            background-color:red;
+        }
+        a:hover{
+            background-color: black;
+        }
+        p:first-child{
+            background-color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+
+    <main  class="one">
+        <p>i am first </p>
+        <p>i am secend </p>
+    </main>
+    <div class="red">
+        i am div
+        <p> i am para </p>
+    </div>
+    <div id="green">
+        i am also div
+    </div>
+    <a href="https://www.google.com"> go to google </a>
+    <a href="https://www.facebook1.com"> go to facebook </a>
+</body>
+
+</html>
